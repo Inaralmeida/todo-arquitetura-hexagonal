@@ -1,0 +1,47 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "João Silva",
+      "username": "joaosilva",
+      "avatar": "https://avatars.githubusercontent.com/u/1?v=4",
+      "email": "joao@example.com"
+    },
+    {
+      "id": "2",
+      "name": "Maria Santos",
+      "username": "mariasantos",
+      "avatar": "https://avatars.githubusercontent.com/u/2?v=4",
+      "email": "maria@example.com"
+    }
+  ],
+  "todos": [
+    {
+      "id": "1",
+      "userId": "1",
+      "title": "Estudar arquitetura hexagonal",
+      "completed": false,
+      "visible": true,
+      "createdAt": "2024-01-01T10:00:00.000Z",
+      "updatedAt": "2024-01-01T10:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "title": "Implementar testes",
+      "completed": true,
+      "visible": true,
+      "createdAt": "2024-01-01T11:00:00.000Z",
+      "updatedAt": "2024-01-01T11:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "userId": "2",
+      "title": "Revisar código",
+      "completed": false,
+      "visible": true,
+      "createdAt": "2024-01-01T12:00:00.000Z",
+      "updatedAt": "2024-01-01T12:00:00.000Z"
+    }
+  ]
+}

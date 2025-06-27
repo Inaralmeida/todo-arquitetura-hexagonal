@@ -1,0 +1,24 @@
+{
+  "name": "todo-monorepo",
+  "version": "1.0.0",
+  "description": "Monorepo para aplicação Todo com arquitetura hexagonal",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix front-end\" \"npm run dev --prefix back-end\"",
+    "install:all": "npm install && npm install --prefix front-end && npm install --prefix back-end",
+    "install:fast": "yarn install && yarn install --cwd front-end && yarn install --cwd back-end",
+    "dev:fast": "concurrently \"yarn dev --cwd front-end\" \"yarn dev --cwd back-end\"",
+    "build": "npm run build --prefix front-end",
+    "test": "npm run cypress:run --prefix front-end"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "todo",
+    "hexagonal",
+    "architecture",
+    "monorepo"
+  ],
+  "author": "",
+  "license": "MIT"
+}
