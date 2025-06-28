@@ -11,7 +11,7 @@ Monorepo com front-end React/TypeScript e back-end JSON Server seguindo princíp
   - [📋 Front-end](./front-end/README.md)
   - [🔧 Back-end](./back-end/README.md)
 
-## 📁 Estrutura do Projeto
+## 🏗️ Estrutura do Projeto
 
 ```
 todo-arquitetura-exagonal/
@@ -45,7 +45,7 @@ chmod +x install-fast.sh
 ./install-fast.sh
 ```
 
-### Execução
+### 🎯 Execução
 
 ```bash
 # Com yarn (mais rápido)
@@ -57,24 +57,30 @@ npm run dev
 
 Isso irá iniciar:
 
-- Front-end na porta 3008
-- Back-end na porta 3009
+- 🌐 Front-end na porta 3008
+- 🔧 Back-end na porta 3009
 
 ## 🛠️ Tecnologias
 
-### Front-end
+### 🌐 Front-end
 
-- React 18 + TypeScript
-- Vite (porta 3008)
-- Styled Components
-- Axios
-- Luxon
-- React Icons
-- Cypress (E2E)
+- ⚛️ React 18 + TypeScript
+- ⚡ Vite (porta 3008)
+- 🎨 Styled Components
+- 📡 Axios
+- 📅 Luxon
+- 🎯 React Icons
+- 🧪 Cypress (E2E)
 
-### Back-end
+### 🔧 Back-end
 
-- JSON Server (porta 3009)
-- Express
-- JWT para autenticação
-- CORS habilitado
+- 📊 JSON Server (porta 3009)
+- 🚀 Express
+- 🔐 JWT para autenticação
+- 🌍 CORS habilitado
+
+## 📚 Documentação
+
+- [📋 Front-end](./front-end/README.md) - Documentação detalhada do front-end
+- [🔧 Back-end](./back-end/README.md) - Documentação do back-end
+- [🎨 Sistema de Botões](./front-end/docs/components/buttons.md) - Documentação dos componentes de botões

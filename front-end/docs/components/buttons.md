@@ -8,7 +8,7 @@ Este documento descreve o sistema de botões implementado seguindo os princípio
 - [📋 Front-end](../README.md) - Documentação do front-end
 - [🔧 Back-end](../../../back-end/README.md) - Documentação do back-end
 
-## Estrutura
+## 🏗️ Estrutura
 
 ```
 src/presentation/components/Button/
@@ -19,13 +19,13 @@ src/presentation/components/Button/
 └── index.tsx               # Exportações centralizadas
 ```
 
-## Componentes
+## 🧩 Componentes
 
-### Button (Base)
+### 🎯 Button (Base)
 
 Botão base com múltiplas variantes e tamanhos.
 
-#### Props
+#### 📋 Props
 
 - `variant`: 'primary' | 'secondary' | 'danger' | 'ghost'
 - `size`: 'small' | 'medium' | 'large'
@@ -33,22 +33,23 @@ Botão base com múltiplas variantes e tamanhos.
 - `loading`: boolean
 - `children`: React.ReactNode
 
-#### Exemplo
+#### 💡 Exemplo
 
 ```tsx
 <Button variant="primary" size="medium" onClick={handleClick}>
   Clique aqui
 </Button>
 ```
+
 Demonstração dos botões base com diferentes variantes e tamanhos:
 
 ![Botões Base](./images/buttons-base.png)
 
-### IconButton
+### 🔘 IconButton
 
 Botão redondo para ícones com tooltip e múltiplas variantes.
 
-#### Props
+#### 📋 Props
 
 - `icon`: React.ReactNode
 - `tooltip`: string (opcional)
@@ -58,16 +59,16 @@ Botão redondo para ícones com tooltip e múltiplas variantes.
 - `loading`: boolean
 - `onClick`: () => void
 
-#### Variantes
+#### 🎨 Variantes
 
-- **contained**: Background preenchido com sombra e efeito de elevação
-- **outlined**: Contorno com preenchimento transparente (estilo GitHub)
-- **primary**: Azul preenchido
-- **secondary**: Contorno azul
-- **danger**: Vermelho preenchido
-- **ghost**: Transparente (padrão)
+- **🔵 contained**: Background preenchido com sombra e efeito de elevação
+- **⚪ outlined**: Contorno com preenchimento transparente (estilo GitHub)
+- **🔵 primary**: Azul preenchido
+- **🔵 secondary**: Contorno azul
+- **🔴 danger**: Vermelho preenchido
+- **⚪ ghost**: Transparente (padrão)
 
-#### Exemplo
+#### 💡 Exemplo
 
 ```tsx
 <IconButton
@@ -78,13 +79,13 @@ Botão redondo para ícones com tooltip e múltiplas variantes.
 />
 ```
 
-### ActionButtons
+### ⚡ ActionButtons
 
 Conjunto de botões de ação específicos para operações CRUD e filtros.
 
-#### Botões Disponíveis
+#### 🎯 Botões Disponíveis
 
-**Operações CRUD:**
+**🔧 Operações CRUD:**
 
 - `CreateButton`: Criar novo item (variant: contained)
 - `EditButton`: Editar item (variant: outlined)
@@ -93,20 +94,20 @@ Conjunto de botões de ação específicos para operações CRUD e filtros.
 - `CancelButton`: Cancelar ação (variant: outlined)
 - `MoreButton`: Mais opções (variant: outlined)
 
-**Filtros:**
+**🔍 Filtros:**
 
 - `AllTodosButton`: Ver todos (variant: outlined)
 - `CompletedTodosButton`: Ver finalizados (variant: outlined)
 - `PendingTodosButton`: Ver pendentes (variant: outlined)
 
-**Ordenação:**
+**📊 Ordenação:**
 
 - `SortAZButton`: A-Z (variant: outlined)
 - `SortZAButton`: Z-A (variant: outlined)
 - `SortOldestButton`: Mais antigos (variant: outlined)
 - `SortNewestButton`: Mais recentes (variant: outlined)
 
-#### Exemplo
+#### 💡 Exemplo
 
 ```tsx
 import { CreateButton, EditButton, DeleteButton } from './ActionButtons';
@@ -120,12 +121,11 @@ Botões de ação específicos para operações CRUD e filtros:
 
 ![Action Buttons](./images/action-buttons.png)
 
-
-### GithubLoginButton
+### 🔑 GithubLoginButton
 
 Botão específico para login com GitHub, seguindo o design oficial.
 
-#### Props
+#### 📋 Props
 
 - `onClick`: () => void
 - `onGithubLogin`: () => void
@@ -133,12 +133,12 @@ Botão específico para login com GitHub, seguindo o design oficial.
 - `loading`: boolean
 - `variant`: 'contained' | 'outlined'
 
-#### Variantes
+#### 🎨 Variantes
 
-- **contained**: Background preenchido com sombra (padrão)
-- **outlined**: Contorno com preenchimento transparente
+- **🔵 contained**: Background preenchido com sombra (padrão)
+- **⚪ outlined**: Contorno com preenchimento transparente
 
-#### Exemplo
+#### 💡 Exemplo
 
 ```tsx
 <GithubLoginButton
@@ -155,49 +155,49 @@ Botão específico para login com GitHub:
 
 ![Github Login Button](./images/github-login-button.png)
 
-## Características
+## ✨ Características
 
-### Acessibilidade
+### ♿ Acessibilidade
 
 - Todos os botões suportam `aria-label` e `aria-describedby`
 - Navegação por teclado com `tabindex`
 - Estados visuais para `disabled` e `loading`
 - Tooltips informativos
 
-### Responsividade
+### 📱 Responsividade
 
 - Tamanhos adaptáveis (small, medium, large)
 - Design mobile-first
 - Transições suaves
 
-### Variantes Visuais
+### 🎨 Variantes Visuais
 
-- **Contained**: Background preenchido com sombra
-- **Outlined**: Contorno com preenchimento transparente
-- **Primary**: Azul principal
-- **Secondary**: Azul secundário
-- **Danger**: Vermelho para ações destrutivas
-- **Ghost**: Transparente para ações sutis
+- **🔵 Contained**: Background preenchido com sombra
+- **⚪ Outlined**: Contorno com preenchimento transparente
+- **🔵 Primary**: Azul principal
+- **🔵 Secondary**: Azul secundário
+- **🔴 Danger**: Vermelho para ações destrutivas
+- **⚪ Ghost**: Transparente para ações sutis
 
-## Testes
+## 🧪 Testes
 
 Cada componente possui testes unitários completos:
 
-- Renderização correta
-- Interações do usuário
-- Estados (disabled, loading)
-- Acessibilidade
-- Variantes e tamanhos
+- ✅ Renderização correta
+- 🖱️ Interações do usuário
+- 🔒 Estados (disabled, loading)
+- ♿ Acessibilidade
+- 🎨 Variantes e tamanhos
 
-## Princípios Aplicados
+## 🏗️ Princípios Aplicados
 
-### Arquitetura Hexagonal
+### 🏛️ Arquitetura Hexagonal
 
 - Separação clara entre apresentação e lógica
 - Componentes na camada de apresentação
 - Props como contratos de interface
 
-### SOLID
+### 🔧 SOLID
 
 - **S**: Cada botão tem responsabilidade única
 - **O**: Extensível através de variantes
@@ -205,8 +205,8 @@ Cada componente possui testes unitários completos:
 - **I**: Interfaces específicas por tipo
 - **D**: Depende de abstrações (props)
 
-### DDD
+### 🎯 DDD
 
-- Linguagem ubíqua nos nomes dos componentes
-- Agregados bem definidos (Button, ActionButtons)
-- Contextos delimitados (presentation/components)
+- Organização por domínio funcional
+- Componentes coesos e bem definidos
+- Separação clara de responsabilidades

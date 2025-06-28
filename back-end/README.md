@@ -25,13 +25,13 @@ back-end/
 ## 🚀 Como Executar
 
 ```bash
-# Instalar dependências
+# 📦 Instalar dependências
 npm install
 
-# Executar servidor
+# 🚀 Executar servidor
 npm start
 
-# Executar em modo desenvolvimento
+# ⚡ Executar em modo desenvolvimento
 npm run dev
 ```
 
@@ -39,7 +39,7 @@ O servidor será iniciado na porta **3009**.
 
 ## 📡 Endpoints
 
-### Autenticação
+### 🔐 Autenticação
 
 #### POST /login
 
@@ -71,13 +71,13 @@ Login com email e senha.
 
 Logout do usuário (invalida o token).
 
-### Usuários
+### 👥 Usuários
 
 #### GET /users
 
 Lista todos os usuários (requer autenticação).
 
-### Todos
+### ✅ Todos
 
 #### GET /todos
 
@@ -113,17 +113,17 @@ Todas as rotas (exceto `/login` e `/logout`) requerem token JWT no header:
 Authorization: Bearer <token>
 ```
 
-### Middleware de Autenticação
+### 🔧 Middleware de Autenticação
 
 O servidor inclui middleware que:
 
-- Verifica o token JWT
-- Adiciona o usuário ao request
-- Filtra dados por usuário
+- 🔍 Verifica o token JWT
+- 👤 Adiciona o usuário ao request
+- 🎯 Filtra dados por usuário
 
 ## 📊 Dados
 
-### Estrutura do db.json
+### 📋 Estrutura do db.json
 
 ```json
 {
@@ -149,20 +149,20 @@ O servidor inclui middleware que:
 }
 ```
 
-### Dados Iniciais
+### 📈 Dados Iniciais
 
 O `db.json` contém:
 
-- 2 usuários de exemplo
-- 3 todos (1 completo, 2 pendentes)
+- 👥 2 usuários de exemplo
+- ✅ 3 todos (1 completo, 2 pendentes)
 
 ## 🛠️ Tecnologias
 
-- **JSON Server**: API REST automática
-- **Express**: Framework web
-- **jsonwebtoken**: Autenticação JWT
-- **cors**: Cross-Origin Resource Sharing
-- **bcryptjs**: Hash de senhas
+- **📊 JSON Server**: API REST automática
+- **🚀 Express**: Framework web
+- **🔐 jsonwebtoken**: Autenticação JWT
+- **🌍 cors**: Cross-Origin Resource Sharing
+- **🔒 bcryptjs**: Hash de senhas
 
 ## 📚 Documentação
 
