@@ -19,6 +19,7 @@ Este é o frontend da aplicação Todo desenvolvido com React, TypeScript e segu
 - [🏠 README Principal](../README.md) - Documentação geral do projeto
 - [🔧 Back-end](../back-end/README.md) - Documentação do back-end
 - [🎨 Sistema de Botões](./docs/components/buttons.md) - Documentação completa do sistema de botões
+- [📝 Componente Input](./docs/components/input.md) - Documentação completa do componente Input
 
 ## 📁 Estrutura do Projeto
 
@@ -59,6 +60,7 @@ npm run cypress:open
 A documentação detalhada dos componentes está disponível na pasta `docs/`:
 
 - [🎨 Sistema de Botões](./docs/components/buttons.md) - Documentação completa do sistema de botões
+- [📝 Componente Input](./docs/components/input.md) - Documentação completa do componente Input
 
 ## 🏗️ Arquitetura
 
