@@ -14,6 +14,12 @@ Este é o frontend da aplicação Todo desenvolvido com React, TypeScript e segu
 - [📝 Convenções](#-convenções)
 - [📚 Documentação](#-documentação)
 
+## 📚 Documentação
+
+- [🏠 README Principal](../README.md) - Documentação geral do projeto
+- [🔧 Back-end](../back-end/README.md) - Documentação do back-end
+- [🎨 Sistema de Botões](./docs/components/buttons.md) - Documentação completa do sistema de botões
+
 ## 📁 Estrutura do Projeto
 
 ```
@@ -99,8 +105,3 @@ A documentação detalhada dos componentes está disponível na pasta `docs/`:
 - **Estilos**: Styled Components com arquivos `.style.ts`
 - **Testes**: Arquivos `.test.tsx` na pasta `__tests__`
 - **Tipos**: Arquivos `.types.ts` separados dos componentes
-
-## 📚 Documentação
-
-- [🏠 README Principal](../README.md) - Documentação geral do projeto
-- [🔧 Back-end](../back-end/README.md) - Documentação do back-end
