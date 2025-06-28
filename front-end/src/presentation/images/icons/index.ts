@@ -1,0 +1,13 @@
+export { AllTodosIcon } from "./all-todos";
+export { CancelIcon } from "./cancel";
+export { CompletedIcon } from "./completed";
+export { ConfirmIcon } from "./confirm";
+export { CreateIcon } from "./create";
+export { DeleteIcon } from "./delete";
+export { EditIcon } from "./edit";
+export { MoreIcon } from "./more";
+export { PendingIcon } from "./pending";
+export { SortAZIcon } from "./sort-az";
+export { SortNewestIcon } from "./sort-newest";
+export { SortOldestIcon } from "./sort-oldest";
+export { SortZAIcon } from "./sort-za";
