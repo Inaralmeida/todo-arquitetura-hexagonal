@@ -2,6 +2,17 @@
 
 Monorepo com front-end React/TypeScript e back-end JSON Server seguindo princípios da arquitetura hexagonal.
 
+## 📋 Sumário
+
+- [🏗️ Estrutura do Projeto](#-estrutura-do-projeto)
+- [🚀 Como Executar](#-como-executar)
+- [🛠️ Tecnologias](#️-tecnologias)
+- [📡 Endpoints da API](#-endpoints-da-api)
+- [🔐 Autenticação](#-autenticação)
+- [📊 Dados Iniciais](#-dados-iniciais)
+- [🏗️ Arquitetura Hexagonal](#️-arquitetura-hexagonal)
+- [📚 Documentação](#-documentação)
+
 ## 📁 Estrutura do Projeto
 
 ```
@@ -23,7 +34,7 @@ todo-arquitetura-exagonal/
     └── db.json (dados iniciais)
 ```
 
-## �� Como Executar
+## 🚀 Como Executar
 
 ### ⚡ Instalação Super Rápida (Recomendado)
 
@@ -141,3 +152,9 @@ O front-end segue a arquitetura hexagonal com 4 camadas:
 - `@application/*` → `src/application/*`
 - `@infrastructure/*` → `src/infrastructure/*`
 - `@presentation/*` → `src/presentation/*`
+
+## 📚 Documentação
+
+- [📋 Front-end](./front-end/README.md) - Documentação detalhada do front-end
+- [🔧 Back-end](./back-end/README.md) - Documentação do back-end
+- [🎨 Sistema de Botões](./front-end/docs/components/buttons.md) - Documentação dos componentes de botões
