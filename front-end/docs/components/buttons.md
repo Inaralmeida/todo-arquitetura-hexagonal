@@ -19,26 +19,6 @@ src/presentation/components/Button/
 └── index.tsx               # Exportações centralizadas
 ```
 
-## Exemplos Visuais
-
-### Botões Base
-
-Demonstração dos botões base com diferentes variantes e tamanhos:
-
-![Botões Base](./images/buttons-base.png)
-
-### Action Buttons
-
-Botões de ação específicos para operações CRUD e filtros:
-
-![Action Buttons](./images/action-buttons.png)
-
-### Github Login Button
-
-Botão específico para login com GitHub:
-
-![Github Login Button](./images/github-login-button.png)
-
 ## Componentes
 
 ### Button (Base)
@@ -60,6 +40,9 @@ Botão base com múltiplas variantes e tamanhos.
   Clique aqui
 </Button>
 ```
+Demonstração dos botões base com diferentes variantes e tamanhos:
+
+![Botões Base](./images/buttons-base.png)
 
 ### IconButton
 
@@ -133,6 +116,11 @@ import { CreateButton, EditButton, DeleteButton } from './ActionButtons';
 <DeleteButton onAction={handleDelete} />
 ```
 
+Botões de ação específicos para operações CRUD e filtros:
+
+![Action Buttons](./images/action-buttons.png)
+
+
 ### GithubLoginButton
 
 Botão específico para login com GitHub, seguindo o design oficial.
@@ -162,6 +150,10 @@ Botão específico para login com GitHub, seguindo o design oficial.
   onGithubLogin={handleGithubLogin}
 />
 ```
+
+Botão específico para login com GitHub:
+
+![Github Login Button](./images/github-login-button.png)
 
 ## Características
 
@@ -196,15 +188,6 @@ Cada componente possui testes unitários completos:
 - Estados (disabled, loading)
 - Acessibilidade
 - Variantes e tamanhos
-
-## Uso na HomePage
-
-Todos os botões estão disponíveis na HomePage para demonstração, organizados em seções:
-
-- Botões Base
-- Action Buttons (Contained/Outlined)
-- Icon Buttons
-- Github Login Button
 
 ## Princípios Aplicados
 
