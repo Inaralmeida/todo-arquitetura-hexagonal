@@ -78,9 +78,3 @@ Isso irá iniciar:
 - Express
 - JWT para autenticação
 - CORS habilitado
-
-## 📚 Documentação
-
-- [📋 Front-end](./front-end/README.md) - Documentação detalhada do front-end
-- [🔧 Back-end](./back-end/README.md) - Documentação do back-end
-- [🎨 Sistema de Botões](./front-end/docs/components/buttons.md) - Documentação dos componentes de botões
