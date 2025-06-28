@@ -13,6 +13,26 @@ src/presentation/components/Button/
 └── index.tsx               # Exportações centralizadas
 ```
 
+## Exemplos Visuais
+
+### Botões Base
+
+Demonstração dos botões base com diferentes variantes e tamanhos:
+
+![Botões Base](./images/buttons-base.png)
+
+### Action Buttons
+
+Botões de ação específicos para operações CRUD e filtros:
+
+![Action Buttons](./images/action-buttons.png)
+
+### Github Login Button
+
+Botão específico para login com GitHub:
+
+![Github Login Button](./images/github-login-button.png)
+
 ## Componentes
 
 ### Button (Base)
